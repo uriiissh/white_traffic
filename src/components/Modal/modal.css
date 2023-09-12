@@ -1,0 +1,81 @@
+.modal{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(23, 27, 24, 0.295);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.modal__content{
+  border-radius: 12px;
+  background-color: white;
+  transform: scale(0.5);
+  transition: 0.4s all;
+  justify-content: center;
+  padding: 30px;
+
+
+}
+
+.modal__content.active{
+  transform: scale(1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+  align-items: center;
+  text-align: start;
+
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: 'Geologica', sans-serif;
+  max-width: 300px;
+  justify-content: center;
+}
+
+.expert{
+  font-size: 25px;
+  font-weight: 400px;
+}
+
+.free{
+  color: rgb(189, 189, 188);
+}
+
+.help{
+  color: rgb(189, 189, 188);
+}
+.time{
+  color: rgb(189, 189, 188);
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px;
+  max-width: 200px;
+  font-family: 'Geologica', sans-serif;
+}
+
+
+
+.modal.active{
+ pointer-events: all;
+ opacity: 1;
+
+}

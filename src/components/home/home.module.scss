@@ -1,0 +1,46 @@
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+  width: 100%;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  max-width: 1920px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.mainimg{
+  background-image: url(../assets/images/homeimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 50vh;
+  box-shadow: 0px 0px 105px 200px rgba(0,0,0,0.12) inset;
+-webkit-box-shadow: 0px 0px 105px 200px rgba(0,0,0,0.12) inset;
+-moz-box-shadow: 0px 0px 105px 200px rgba(0,0,0,0.12) inset;
+  background-position: bottom;
+  .maintext{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Geologica", sans-serif;
+    max-width: 600px;
+    text-align: center;
+  }
+
+}
+
+

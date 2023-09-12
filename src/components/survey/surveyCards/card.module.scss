@@ -1,0 +1,68 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  border: 12px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  border-color: black;
+  padding: 20px;
+  box-sizing: border-box;
+  outline: none;
+  box-shadow: -1px 5px 163px 1px rgba(125, 125, 125, 0.46);
+  -webkit-box-shadow: -1px 5px 163px 1px rgba(125, 125, 125, 0.46);
+  -moz-box-shadow: -1px 5px 163px 1px rgba(125, 125, 125, 0.46);
+}
+
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 0 20px 0;
+}
+
+.checkbox {
+  display: flex;
+  gap: 5px;
+}
+
+.check {
+  display: flex;
+  justify-content: center;
+  border: 2px solid;
+  border-radius: 4px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border-color: rgb(212, 216, 216);
+  img {
+    opacity: 0;
+  }
+}
+
+.check_active {
+  align-items: center;
+  border-color: rgb(48, 48, 233);
+  img {
+    opacity: 1;
+    width: 14px;
+    height: 14px;
+  }
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.btn {
+  padding: 15px;
+  border: none;
+  background-color: rgb(223, 230, 230);
+  cursor: pointer;
+  font-family: "Geologica", sans-serif;
+}
+
+.btnback_active {
+  display: none;
+}
